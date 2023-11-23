@@ -30,7 +30,7 @@ void menu(){
 		cin>>opc;
 
 		switch(opc){
-			case 1: cout<<"\nIngrese el carácter para agregar a la cola: ";
+			case 1: cout<<"\nIngrese el caracter para agregar a la cola: ";
 					cin>>dato;
 					insertarCola(frente,fin,dato);
 					break;
